@@ -1,13 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-:root{
-    --primary: #222831;
-    --secondary:#393E46;
-    --tertiary: #00ADB5;
-    --quaternary: #EEEEEE;
-    font-family: 'Bai Jamjuree', sans-serif;
+:root {
+  --primary: #222831;
+  --secondary: #393e46;
+  --tertiary: #00adb5;
+  --quaternary: #eeeeee;
+  font-family: "Bai Jamjuree", sans-serif;
 }
-body{
-    background-color: var(--quaternary);
-    color: var(--primary);
+body {
+  background-color: var(--quaternary);
+  color: var(--primary);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--primary);
+}
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+a:hover {
+  color: var(--tertiary);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*--NAVBAR--*/
+.nav-item {
+  padding: 15px 40px 0 10px;
+  font-style: uppercase;
+}
+.navbar .nav-link:hover {
+  color: var(--tertiary);
+}
+
+/*--Hero banner--*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.col img{
+    width:60%;
+    height: 60%;
+    margin: auto;
 }
