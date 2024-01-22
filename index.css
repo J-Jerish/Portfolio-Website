@@ -4,7 +4,7 @@
   --primary: #222831;
   --secondary: #393e46;
   --tertiary: #00adb5;
-  --quaternary: #eeeeee;
+  --quaternary: #F9F9F9;
   font-family: "Bai Jamjuree", sans-serif;
 }
 body {
@@ -17,7 +17,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
   color: var(--primary);
 }
 a {
@@ -27,11 +26,6 @@ a {
 }
 a:hover {
   color: var(--tertiary);
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*--NAVBAR--*/
@@ -57,8 +51,23 @@ img {
 .fa:hover {
   opacity: 0.7;
 }
-.col img{
-    width:60%;
-    height: 60%;
-    margin: auto;
+.herobannerimg img{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+.herobanner{
+  padding-top: 50px;
+}
+.herobannertext{
+  padding-top: 50px;
+}
+
+/*--About me--*/
+
+.aboutme img{
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
